@@ -33,41 +33,6 @@ module.exports = {
                     'angular-template-url-loader?basePath=' + path.resolve(__dirname, "../src/")
                 ]
             },
-            /*{
-                test: /\.css$/,
-                use: ['to-string-loader', 'css-loader']
-            },*/
-            /*{
-                test: /\.css$/,
-                loader: ExtractTextPlugin.extract({
-                    fallback: 'style-loader',
-                    use: 'css-loader?sourceMap',
-                })
-            },*/
-            /*{
-                // test: [ /\.css$/, /\.scss$/],
-                test: /\.css$|\.scss$/,
-                // exclude: helpers.root("src", "app"),
-                // include: helpers.root("src"),
-                // exclude: /node_modules/,
-                loader: ExtractTextPlugin.extract({
-                    fallback: "style-loader",
-                    use: [
-                        { loader: "to-string-loader" },
-                        { loader: "css-loader", query: { modules: false, importLoaders: 2 } },
-                        { loader: "postcss-loader" },
-                        { loader: "resolve-url-loader" },
-                        { loader: "sassc-loader", options: { sourceMap: true } },
-                    ]
-                }),
-            },*/
-            /*{
-                test:[ /\.css$/, /\.scss$/],
-                use: ExtractTextPlugin.extract({
-                    use: styleLoader
-                }),
-                exclude: /node_modules/
-            },*/
             {
                 test: /\.(css|scss)$/,
                 loader: ExtractTextPlugin.extract({
