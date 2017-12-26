@@ -1,0 +1,1 @@
+# webpack angularjs scss starterkit [![Known Vulnerabilities](https://snyk.io/test/github/fdiskas/webpack_angularjs_scss_starterkit/badge.svg)](https://snyk.io/test/github/fdiskas/webpack_angularjs_scss_starterkit)
